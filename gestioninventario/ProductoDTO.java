@@ -12,8 +12,6 @@ public class ProductoDTO {
         this.cantidadDisponible = cantidadDisponible;
         this.precio = precio;
     }
-
-    // Getters y setters (si es necesario)
     @Override
     public String toString() {
         return String.format("Producto: %s | Categoría: %s | Cantidad disponible: %d | Precio: %.2f", 
